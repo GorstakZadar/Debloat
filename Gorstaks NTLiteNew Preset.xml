@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Preset xmlns="urn:schemas-nliteos-com:pn.v1">
-	<Date>12/21/2024 00:45:02</Date>
+	<Date>02/09/2025 00:39:46</Date>
 	<AppInfo>
-		<Version>2024.12.10221</Version>
+		<Version>2025.1.10271</Version>
 		<Licensed>No</Licensed>
 		<Protections>Yes</Protections>
-		<Host>Windows 11 IoTEnterpriseS 24H2 x64 - 10.0.26100.2605 (en-US)</Host>
+		<Host>Windows 11 IoTEnterpriseS 24H2 x64 - 10.0.26100.1 (en-US)</Host>
 	</AppInfo>
 	<ImageInfo>
-		<Version mode="offline">Windows 11 Professional 24H2 x64 - 10.0.26100.1 (en-US)</Version>
-		<GUID>{F49591CA-0D65-36AD-2C6E-28C054445084}</GUID>
+		<Version mode="offline">Windows 11 Enterprise 24H2 x64 - 10.0.26100.1 (en-US)</Version>
+		<GUID>{EFE450A2-9B52-0B5A-7A7E-B91BDB98476F}</GUID>
 	</ImageInfo>
 	<RemoveComponents AppRemovalMode="DISM">
 		<c>appv 'Application Virtualization (App-V)'</c>
@@ -155,7 +155,6 @@
 			<Feature enabled="yes">Hyper-V</Feature>
 			<Feature enabled="yes">iCloud</Feature>
 			<Feature enabled="yes">Kaspersky</Feature>
-			<Feature enabled="yes">ManualSetup</Feature>
 			<Feature enabled="yes">OfficeSupport</Feature>
 			<Feature enabled="yes">AppxSupport</Feature>
 			<Feature enabled="yes">Netflix</Feature>
@@ -212,7 +211,6 @@
 		<Feature name="LegacyComponents">true</Feature>
 		<Feature name="Microsoft.Windows.Wifi.Client.Marvel.Mrvlpcie8897~~~~0.0.1.0">false</Feature>
 		<Feature name="MathRecognizer~~~~0.0.1.0">false</Feature>
-		<Feature name="Edge.Webview2.Platform~~~~">false</Feature>
 		<Feature name="OpenSSH.Client~~~~0.0.1.0">false</Feature>
 		<Feature name="Print.Management.Console~~~~0.0.1.0">false</Feature>
 		<Feature name="Microsoft.Windows.Wifi.Client.Qualcomm.Athw8x~~~~0.0.1.0">false</Feature>
@@ -233,10 +231,9 @@
 			<OptimizeAppX>false</OptimizeAppX>
 			<UpdateBootManager>false</UpdateBootManager>
 		</Options>
-		<File>D:\NTLite\Cache\Updates\11.24H2.x64\updateplatform.amd64fre_d3f6f8300855e56b8ed00da6dac55a3c4cbf8c20.exe</File>
-		<File>D:\NTLite\Cache\Updates\11.24H2.x64\mpam-fe.exe</File>
-		<File>D:\NTLite\Cache\Updates\11.24H2.x64\Microsoft.VCLibs.x64.14.00.Desktop.appx</File>
-		<File>D:\NTLite\Cache\Updates\11.24H2.x64\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle</File>
+		<File>C:\Users\Gorstak\Downloads\sxs\microsoft-windows-netfx3-ondemand-package~31bf3856ad364e35~amd64~~.cab</File>
+		<File>D:\Appz\NTLite\Cache\Updates\11.24H2.x64\Microsoft.VCLibs.x64.14.00.Desktop.appx</File>
+		<File>D:\Appz\NTLite\Cache\Updates\11.24H2.x64\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle</File>
 	</Packages>
 	<Commands>
 		<PostUpdates>
@@ -266,16 +263,11 @@
 						<InstallFrom>
 							<MetaData>
 								<Key>/IMAGE/INDEX</Key>
-								<Value>1</Value>
+								<Value>2</Value>
 							</MetaData>
 						</InstallFrom>
 					</OSImage>
 				</ImageInstall>
-				<UserData>
-					<ProductKey>
-						<Key></Key>
-					</ProductKey>
-				</UserData>
 			</component>
 		</settings>
 	</Unattended>
@@ -514,6 +506,7 @@
 		<ImageTasks>
 			<Task>imageSaveTrim</Task>
 			<Task>imageFormatWim</Task>
+			<Task>tweaksettings_boot.wim_01_2_64</Task>
 		</ImageTasks>
 		<AutoIsoFile>NTLite.iso</AutoIsoFile>
 		<AutoIsoLabel>NTLite</AutoIsoLabel>
@@ -524,10 +517,5 @@
 		<Change></Change>
 		<Add></Add>
 	</Execution>
-	<Registry>
-		<File>D:\Util\HKCR.reg</File>
-		<File>D:\Util\HKCU.reg</File>
-		<File>D:\Util\HKLM.reg</File>
-		<File>D:\Util\HKU.reg</File>
-	</Registry>
+	<Registry></Registry>
 </Preset>
