@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Preset isAutoSaved="true" xmlns="urn:schemas-nliteos-com:pn.v1">
+	<Date>01/25/2025 02:26</Date>
+	<AppInfo>
+		<Version>1.5.0.5855</Version>
+		<Licensed>Yes</Licensed>
+		<Protections>Yes</Protections>
+		<Host>Windows 10 IoT Enterprise LTSC 2024 64-bit - Client 10.0.26100.1 (en-US) - en-US</Host>
+	</AppInfo>
+	<ImageInfo>
+		<Version mode="offline">Windows 10 Pro 64-bit - Client 10.0.26100.1 (en-US)</Version>
+		<GUID>{B19550C5-42B1-4402-A1C0-CA5FBB4B0430}</GUID>
+	</ImageInfo>
+	<RemoveComponents>
+		<c>driver_xinputhid.inf</c>
+		<c>firstlogonanim 'First-logon animation'</c>
+		<c>hwsupport_telephony 'Telephony'</c>
+		<c>iscsi 'iSCSI Initiator'</c>
+		<c>offlinefiles 'Offline Files'</c>
+		<c>onedrive</c>
+		<c>phonesvc 'Phone Service'</c>
+		<c>rasauto 'Remote Access Auto Connection Manager'</c>
+		<c>tempcache 'Cache and temp files'</c>
+		<c>winre 'Windows Recovery'</c>
+		<c>adamclient 'Active Directory Lightweight Directory Services (AD LDS)'</c>
+		<c>azuread 'Azure Active Directory'</c>
+		<c>driver_wvmic.inf</c>
+		<c>driver_wvmic_ext.inf</c>
+		<c>driver_wvmic_guestinterface.inf</c>
+		<c>driver_wvmic_heartbeat.inf</c>
+		<c>driver_wvmic_kvpexchange.inf</c>
+		<c>driver_wvmic_shutdown.inf</c>
+		<c>driver_wvmic_timesync.inf</c>
+		<c>driver_wvmic_vss.inf</c>
+		<c>driver_xinputhid.inf</c>
+		<c>hwsupport_telephony 'Telephony'</c>
+		<c>langarabic 'Arabic'</c>
+		<c>langbulgarian 'Bulgarian'</c>
+		<c>langchineses 'Chinese Simplified'</c>
+		<c>langcroatian 'Croatian'</c>
+		<c>langczech 'Czech'</c>
+		<c>langdanish 'Danish'</c>
+		<c>langdutch 'Dutch'</c>
+		<c>langenglishgb 'English (GB)'</c>
+		<c>langestonian 'Estonian'</c>
+		<c>langfinnish 'Finnish'</c>
+		<c>langfrench 'French'</c>
+		<c>langfrenchcanadian 'French (Canadian)'</c>
+		<c>langgerman 'German'</c>
+		<c>langgreek 'Greek'</c>
+		<c>langhebrew 'Hebrew'</c>
+		<c>langhungarian 'Hungarian'</c>
+		<c>langitalian 'Italian'</c>
+		<c>langlatvian 'Latvian'</c>
+		<c>langlithuanian 'Lithuanian'</c>
+		<c>langnorwegian 'Norwegian'</c>
+		<c>langpolish 'Polish'</c>
+		<c>langportuguesebr 'Portuguese (Brazilian)'</c>
+		<c>langportuguesept 'Portuguese'</c>
+		<c>langpseudolocale 'Pseudo-locale'</c>
+		<c>langromanian 'Romanian'</c>
+		<c>langrussian 'Russian'</c>
+		<c>langserbian 'Serbian'</c>
+		<c>langslovak 'Slovak'</c>
+		<c>langslovenian 'Slovenian'</c>
+		<c>langspanish 'Spanish'</c>
+		<c>langswedish 'Swedish'</c>
+		<c>langthai 'Thai'</c>
+		<c>langturkish 'Turkish'</c>
+		<c>langukrainian 'Ukrainian'</c>
+		<c>Microsoft.AAD.BrokerPlugin 'AAD.BrokerPlugin'</c>
+		<c>migwiz 'Easy Transfer'</c>
+		<c>phonesvc 'Phone Service'</c>
+		<c>rasauto 'Remote Access Auto Connection Manager'</c>
+		<c>rdpclient 'Remote Desktop Client'</c>
+		<c>retaildemo 'Retail Demo Content'</c>
+		<c>speechcommon 'Speech Recognition'</c>
+		<c>speechtts 'Speech TTS'</c>
+		<c>winre 'Windows Recovery'</c>
+	</RemoveComponents>
+	<Compatibility protectHidden="true">
+		<ComponentFeatures>
+			<Feature enabled="yes">AppxSupport</Feature>
+			<Feature enabled="yes">DefaultFonts</Feature>
+			<Feature enabled="no">Hyper-V</Feature>
+			<Feature enabled="yes">OfficeSupport</Feature>
+			<Feature enabled="no">NetworkDiscovery</Feature>
+			<Feature enabled="yes">OOBE</Feature>
+			<Feature enabled="yes">Printing</Feature>
+			<Feature enabled="yes">Recommended-All</Feature>
+			<Feature enabled="no">SamsungSwitch</Feature>
+			<Feature enabled="no">Recommended-Tablet</Feature>
+			<Feature enabled="yes">USB</Feature>
+			<Feature enabled="no">USBModem</Feature>
+			<Feature enabled="yes">VideoPlayback</Feature>
+			<Feature enabled="no">VisualStudio</Feature>
+			<Feature enabled="yes">Activation</Feature>
+			<Feature enabled="yes">ActivationKMS</Feature>
+		</ComponentFeatures>
+		<MachineDrivers>
+			<Machine enabled="yes">HostMachine</Machine>
+			<Machine enabled="no">Hyper-V VM</Machine>
+			<Machine enabled="no">Parallels VM</Machine>
+			<Machine enabled="no">Virtual Box VM</Machine>
+			<Machine enabled="no">VMware VM</Machine>
+		</MachineDrivers>
+	</Compatibility>
+	<Features></Features>
+	<AddPackages></AddPackages>
+	<Drivers showHidden="true">
+		<AddDrivers>
+			<Driver>G:\Drivers\Storage controllers\secnvme.inf_amd64_6bb1acb34bfcb65e\secnvme.inf</Driver>
+		</AddDrivers>
+	</Drivers>
+	<Unattended mode="0">
+		<OEMSetupComplete>false</OEMSetupComplete>
+		<AnswerFileLocationPanther>false</AnswerFileLocationPanther>
+		<AnswerFileLocationBoot>false</AnswerFileLocationBoot>
+		<SaveBothArch>false</SaveBothArch>
+		<settings pass="windowsPE">
+			<component name="Microsoft-Windows-Setup">
+				<DynamicUpdate>
+					<WillShowUI>OnError</WillShowUI>
+				</DynamicUpdate>
+				<ImageInstall>
+					<OSImage>
+						<WillShowUI>OnError</WillShowUI>
+						<InstallFrom>
+							<MetaData>
+								<Key>/IMAGE/NAME</Key>
+								<Value>Gorstaks 11</Value>
+							</MetaData>
+						</InstallFrom>
+					</OSImage>
+				</ImageInstall>
+				<UserData>
+					<ProductKey>
+						<Key></Key>
+					</ProductKey>
+				</UserData>
+			</component>
+		</settings>
+	</Unattended>
+	<Tweaks>
+		<Settings></Settings>
+		<Services></Services>
+		<ExtraServices></ExtraServices>
+	</Tweaks>
+	<ApplyOptions>
+		<ImageTasks>
+			<Task>imageSaveTrim</Task>
+			<Task>imageFormatWim</Task>
+			<Task>imageOptionsDontBackupPresetLog</Task>
+		</ImageTasks>
+		<AutoIsoFile>NTLite.iso</AutoIsoFile>
+		<AutoIsoLabel>NTLite</AutoIsoLabel>
+		<AutoSplitSize>4000</AutoSplitSize>
+		<CleanHotfixedLeftovers>false</CleanHotfixedLeftovers>
+		<ReuseDriverCache>false</ReuseDriverCache>
+	</ApplyOptions>
+	<Execution>
+		<Add>
+			<Item type="Placeholder">
+				<Index>0</Index>
+			</Item>
+		</Add>
+		<Change></Change>
+		<Remove></Remove>
+	</Execution>
+	<Registry></Registry>
+</Preset>
